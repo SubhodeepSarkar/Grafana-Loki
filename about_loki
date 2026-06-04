@@ -16,5 +16,5 @@ I can think of a scenario:
   In oder to qucikly test our http://khcheck_Service/metrix
   We can install loki instance + promtail.
          configure promtail to scrape : khcheck_Service/metrix and url of loki instace
-         configure loki instance: 
+         configure loki instance: to store chunks of data in local storage
          configure local grafana or cluster grafana : (+add datasource loki) to show logs stored by loki
