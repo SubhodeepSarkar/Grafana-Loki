@@ -1,0 +1,10 @@
+Loki: Log agrregation tool to store and query logs
+
+We can collect logs from all of our applications running in a cluster / culsters and send it to LOKI
+Loki stores thoses logs
+If some Issue comes up ----> user can "query" loki [ex: time frame(start time - end time)] ---> loki reurns the logs for that time frame
+
+Elastc Search Indexes full text from LOGs : Loki is a cost effiective alternative and Loki just indexes the Labels attached to the logs . 
+"Labels" here are metadata tags that gets send with the logs.
+
+Configuration and Query language of LOKI is similar to prometheus.
