@@ -18,3 +18,7 @@ I can think of a scenario:
          configure promtail to scrape : khcheck_Service/metrix and url of loki instace
          configure loki instance: to store chunks of data in local storage
          configure local grafana or cluster grafana : (+add datasource loki) to show logs stored by loki
+
+
+
+Note: LOKI query front-end pod is a load balancer for query request. we can explore
